@@ -54,8 +54,13 @@ export default function Customers() {
                   Delete
                 </NavButton>
               </div>
+             
             );
+            
           })}
+          <Link to={"/home"}>
+          <NavButton margin purple >Back</NavButton>
+          </Link>
         </>
       )}
     </div>

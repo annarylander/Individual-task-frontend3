@@ -105,7 +105,7 @@ export default function CustomerChange(props) {
           value={phoneNumber}
           onChange={(e) => setPhoneNumber(e.target.value)}
         />
-        <NavButton purple onClick={(item) => upDateUser(item.id)}>
+        <NavButton margin onClick={(item) => upDateUser(item.id)}>
           Update information
         </NavButton>
       </form>
